@@ -1,0 +1,25 @@
+a {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  color: var(--main-color);
+  background-color: transparent;
+}
+a p {
+  color: var(--main-color);
+  font-size: 0.9em;
+}
+a:hover {
+  cursor: pointer;
+  background-color: var(--main-color);
+  transition: 0.2s;
+}
+a:hover p {
+  color: #000000;
+  font-family: var(--bold);
+  transition: 0.2s;
+}

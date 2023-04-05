@@ -1,0 +1,22 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+
+:root {
+  --main-color: #fffefb;
+  --bold: "Gotham Black", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Light", sans-serif;
+  font-size: 16px;
+  color: var(--main-color);
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+body {
+  background-color: var(--main-color);
+}
